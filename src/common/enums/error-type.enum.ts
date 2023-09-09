@@ -1,0 +1,15 @@
+export enum ErrorType {
+  InvalidToken = 'INVALID_TOKEN',
+  InvalidCodeIMAGE = 'INVALID_CODE_IMAGE',
+  CodeIMAGEExpired = 'CODE_IMAGE_EXPIRED',
+  AccessTokenExpired = 'ACCESS_TOKEN_EXPIRED',
+  RefreshTokenExpired = 'REFRESH_TOKEN_EXPIRED',
+  PermissionExists = 'PERMISSION_EXISTS',
+  RoleExists = 'ROLE_EXISTS',
+  UserExists = 'USER_EXISTS',
+  InvalidCurrentPassword = 'INVALID_CURRENT_PASSWORD',
+  InvalidCredentials = 'INVALID_CREDENTIALS',
+  BlockedUser = 'BLOCKED_USER',
+  InactiveUser = 'INACTIVE_USER',
+  ForeignKeyConflict = 'FOREIGN_KEY_CONFLICT',
+}
